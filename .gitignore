@@ -1,3 +1,14 @@
+# Frontend build output
+client/dist
+
+# Backend build output
+server/dist
+server/build
+
+# IDE / Editor configuration files
+.vscode/
+.idea/
+
 # Logs
 logs
 *.log
