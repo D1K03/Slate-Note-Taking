@@ -16,9 +16,9 @@ datasource db {
 
 model User {
   id              Int       @id @default(autoincrement())
-  name            String
+  fullName        String
   email           String    @unique
-  password_hash   String
+  passwordHash    String
   role            Role      @default(USER)
   notes           Note[]
   createdAt       DateTime  @default(now())
